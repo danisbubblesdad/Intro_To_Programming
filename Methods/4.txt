@@ -1,0 +1,15 @@
+What will the following code print to the screen?
+
+def scream(words)
+  words = words + "!!!!"
+  return
+  puts words
+end
+
+scream("Yippeee")
+
+
+
+===========
+
+Since the "return" occurs before the puts, nothing is printed. The method quits executing after return.
