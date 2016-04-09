@@ -1,0 +1,28 @@
+Look at the following programs...
+
+x = 0
+3.times do
+  x += 1
+end
+puts x
+and...
+
+y = 0
+3.times do
+  y += 1
+  x = y
+end
+puts x
+What does x print to the screen in each case? Do they both give errors? Are the errors different? Why?
+
+=============
+
+
+Case 1:
+
+x = 3
+
+
+Case 2:
+
+Error because x is out of scope. It is a local variable to the .times loop.
