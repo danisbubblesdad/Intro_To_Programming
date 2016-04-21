@@ -10,7 +10,7 @@ anagram = {}
 
 # Step 2 - Examine if the alphabetize string exists as a key in the hash
 
-# Step 3a - If it doesn't exist int he hash, make it a key! Then, make it a value (where the value is the non-alphabetized, original spelling)!
+# Step 3a - If it doesn't exist in the hash, make it a key! Then, make it a value (where the value is the non-alphabetized, original spelling)!
 
 # Step 3b - If the alphabetized string does exist as key in the hash, add it to the key as a value (where the value is the original spelling)
 
