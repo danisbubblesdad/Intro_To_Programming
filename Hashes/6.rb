@@ -6,7 +6,7 @@ words =  ['demo', 'none', 'tied', 'evil', 'dome', 'mode', 'live',
 
 anagram = {}
 
-# Step one - cycle through each string, break apart letters into an array, alphetize the array, then refuse the string back together where the letters are in alphabetical order
+# Step one - cycle through each string, break apart letters into an array, alphetize the array, then fuse the string back together where the letters are in alphabetical order
 
 # Step 2 - Examine if the alphabetize string exists as a key in the hash
 
