@@ -19,10 +19,10 @@ anagram = {}
 
 words.each do |value|
   key = value.split('').sort.join("-")
-  if anagram.has_key?(key) == false
-    anagram[key] = [value]
-  else
+  if anagram.has_key?(key)
     anagram[key].push(value)
+  else
+    anagram[key] = [value]
   end
 end
 
