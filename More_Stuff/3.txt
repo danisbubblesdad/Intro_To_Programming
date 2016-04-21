@@ -1,0 +1,3 @@
+What is exception handling and what problem does it solve?
+
+Exception handling allows programs to navigate down a separate logic path if an exception is generated. This is in stark contrast to the program breaking due to an exception.
