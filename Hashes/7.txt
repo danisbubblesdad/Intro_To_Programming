@@ -1,0 +1,18 @@
+Given the following code...
+
+x = "hi there"
+my_hash = {x: "some value"}
+my_hash2 = {x => "some value"}
+What's the difference between the two hashes that were created?
+
+
+============================
+my_hash = {x: "some value"}
+
+This is the new syntax for creating hashes. "x" is a self-contained symbol and the name of the key.
+
+
+===============================
+my_hash2 = {x => "some value"}
+
+This is the old syntax for creating hashes. x, in this case, is a variable defined as "hi there" earlier in the code.
