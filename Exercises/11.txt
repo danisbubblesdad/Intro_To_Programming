@@ -1,0 +1,4 @@
+Q: Look at several Rails/Ruby online API sources and say which one you like best and why.
+
+
+A: I'm partial to the official ruby-doc.org API. It's not that it is necessarily better or worse than other options -- but I'm just used to the format and how to navigate through to find what I need quickly.

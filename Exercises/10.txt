@@ -1,0 +1,17 @@
+Q: Can hash values be arrays?
+
+A: Yes!! In fact, arrays are an excellent way to have multiple values per key.
+
+IE:
+
+drinks = {wine: ["Merlot", "Chardonnay"],
+          beer: ["Lager", "Ale"]
+          }
+
+
+
+Q: Can you have an array of hashes?
+
+A: Yes! Arrays are an excellent place to store hashes in an indexed manner. One can even have array with hashes that have arrays for values.
+
+party_supplies = [{wine: "Merlot", beer: "Lager"}, "Party Favors", 24]
